@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 import csv
 
 
-# date = input("please enter a Date MM/DD/YYYY:")
-# page = requests.get(f"https://www.yallakora.com/Match-Center/?date={date}")
-page = requests.get("https://www.yallakora.com/Match-Center/?date=10/05/2023")
+date = input("please enter a Date ,format should be : MM/DD/YYYY:")
+page = requests.get(f"https://www.yallakora.com/Match-Center/?date={date}")
+# page = requests.get("https://www.yallakora.com/Match-Center/?date=10/05/2023")
 
 def main(page):
 
